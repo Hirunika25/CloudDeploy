@@ -1,0 +1,110 @@
+/* static/style.css - simple clean styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: #444;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #4f46e5;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #4338ca;
+}
+
+.btn-secondary {
+    background-color: #6b7280;
+}
+
+.btn-secondary:hover {
+    background-color: #4b5563;
+}
+
+.btn-danger {
+    background-color: #dc2626;
+    display: block;
+    text-align: center;
+}
+
+.btn-danger:hover {
+    background-color: #b91c1c;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flash {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.flash-success { background-color: #d1fae5; color: #065f46; }
+.flash-danger  { background-color: #fee2e2; color: #991b1b; }
+.flash-warning { background-color: #fef3c7; color: #92400e; }
+.flash-info    { background-color: #dbeafe; color: #1e40af; }

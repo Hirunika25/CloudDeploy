@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h1>Welcome 👋</h1>
+    <p>This is a simple Login System built with Flask + MySQL.</p>
+
+    <div class="btn-group">
+        <a href="{{ url_for('login') }}" class="btn">Login</a>
+        <a href="{{ url_for('register') }}" class="btn btn-secondary">Register</a>
+    </div>
+{% endblock %}
